@@ -15,27 +15,27 @@ void init(rectangle &forInit, size_t a, size_t b)
     forInit.b = b;
 }
 
-void print(rectangle &forPrint)
+void print(rectangle forPrint)
 {
     cout << forPrint.a;
     cout << forPrint.b;
 }
 
-int s(rectangle &forCalculation)
+int s(rectangle forCalculation)
 {
     int s = forCalculation.a * forCalculation.b;
 
     return s;
 }
 
-int p(rectangle &forCalculation)
+int p(rectangle forCalculation)
 {
     int p = 2 * forCalculation.a + 2 * forCalculation.b;
 
     return p;
 }
 
-double d(rectangle &rect)
+double d(rectangle rect)
 {
     double d = sqrt(rect.a * rect.a + rect.b * rect.b);
 
